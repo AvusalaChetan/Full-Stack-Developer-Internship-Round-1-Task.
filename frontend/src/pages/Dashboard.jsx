@@ -12,8 +12,8 @@ const Dashboard = () => {
         <Topbar />
       </nav>
 
-   <div className="flex gap-5.5 w-[100%]">
-       <div className="side-bar w-[23%]  overflow-hidden   border-gray-200  rounded-lg">
+   <div className="flex md:justify-between gap-5.5 w-[100%]">
+       <div className="side-bar md:w-[30%] lg:w-[23%]   overflow-hidden     rounded-lg">
         <Sidebar />
         <Rewards />
       </div>

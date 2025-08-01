@@ -11,7 +11,6 @@ const [leaderboardData, setleaderboardData] = useState([])
     try {
       const res = await axios.get('/api/leadboard')
       setleaderboardData(res.data)
-      console.log(res.data)
     } catch (error) {
       console.log(error.message)
     }
@@ -19,13 +18,10 @@ const [leaderboardData, setleaderboardData] = useState([])
   getLeadBoardData()
   }, [])
   
-  useEffect(() => {
-    console.log(leaderboardData)
-  }, [leaderboardData])
-  
+ 
 
   return (
-    <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 mt-2 w-[100%]">
+    <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 mt-2 ">
       <div className="mb-6">
         <h2 className="text-2xl font-bold text-gray-900 mb-2"> Leaderboard</h2>
         <p className="text-gray-600">Top performing interns</p>

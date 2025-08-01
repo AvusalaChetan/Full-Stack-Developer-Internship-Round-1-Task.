@@ -3,7 +3,7 @@ import { CiTrophy } from "react-icons/ci";
 
 const Rewards = () => {
   return (
-     <div className=" bg-white rounded-lg shadow-lg border-gray-400 p-4 mt-2  m-auto w-65 ">
+<div className="bg-white rounded-lg shadow-lg border border-gray-400 p-4 mt-2 w-full max-w-md mx-auto">
               <div className="text-center">
                 <div className="w-12 h-12 rounded-full bg-yellow-500 flex items-center justify-center mx-auto mb-3">
                   <CiTrophy className="text-white font-bolder text-3xl" />

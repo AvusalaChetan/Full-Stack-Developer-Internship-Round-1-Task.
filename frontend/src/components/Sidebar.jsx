@@ -10,7 +10,6 @@ useEffect(() => {
     try {
       const res = await axios.get('/api/internData');
       setIntern(res.data)
-      console.log(intern);
     } catch (error) {
       console.log(error);
     }
@@ -19,18 +18,9 @@ useEffect(() => {
   getIntern();
 }, []);
 
-useEffect(() => {
-  console.log('intern',intern)
-
-  return () => {
-    if(!intern) return 
-  }
-}, [intern])
-
-
   return (
     
-      <div className=" bg-white py-6 px-4 rounded-lg shadow-lg mt-2 border-gray-400  w-65 text-gray-800 m-auto">
+<div className="bg-white py-6 px-4 sm:px-6 md:px-8 lg:px-10 rounded-lg shadow-lg mt-4 w-full max-w-md mx-auto text-gray-800">
      {intern.map((intern,idx)=>{
       return(
            <div className="profile-section" key={idx}>
