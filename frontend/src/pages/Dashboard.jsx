@@ -13,7 +13,7 @@ const Dashboard = () => {
       </nav>
 
    <div className="flex md:justify-between gap-5.5 w-[100%]">
-       <div className="side-bar md:w-[30%] lg:w-[23%]   overflow-hidden     rounded-lg">
+       <div className="side-bar md:w-[30%] lg:w-[23%] overflow-hidden rounded-lg">
         <Sidebar />
         <Rewards />
       </div>
