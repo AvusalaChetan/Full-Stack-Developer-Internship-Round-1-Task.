@@ -1,0 +1,72 @@
+[
+  {
+    "_id": 1,
+    "rank": 1,
+    "name": "Raj Patel",
+    "totalDonation": 75000,
+    "level": "Gold"
+  },
+  {
+    "_id": 2,
+    "rank": 2,
+    "name": "Priya Sharma",
+    "totalDonation": 65000,
+    "level": "Gold"
+  },
+  {
+    "_id": 3,
+    "rank": 3,
+    "name": "Arjun Kumar",
+    "totalDonation": 58000,
+    "level": "Silver"
+  },
+  {
+    "_id": 4,
+    "rank": 4,
+    "name": "Sneha Gupta",
+    "totalDonation": 52000,
+    "level": "Silver"
+  },
+  {
+    "_id": 5,
+    "rank": 5,
+    "name": "Vikram Singh",
+    "totalDonation": 48000,
+    "level": "Silver"
+  },
+  {
+    "_id": 6,
+    "rank": 6,
+    "name": "Kavya Reddy",
+    "totalDonation": 42000,
+    "level": "Bronze"
+  },
+  {
+    "_id": 7,
+    "rank": 7,
+    "name": "Rohit Verma",
+    "totalDonation": 38000,
+    "level": "Bronze"
+  },
+  {
+    "_id": 8,
+    "rank": 8,
+    "name": "Ananya Das",
+    "totalDonation": 35000,
+    "level": "Bronze"
+  },
+  {
+    "_id": 9,
+    "rank": 9,
+    "name": "Karan Joshi",
+    "totalDonation": 28000,
+    "level": "Bronze"
+  },
+  {
+    "_id": 10,
+    "rank": 10,
+    "name": "Isha Agarwal",
+    "totalDonation": 25000,
+    "level": "Bronze"
+  }
+]
