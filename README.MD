@@ -1,36 +1,40 @@
 # Fundraising Intern Portal (Round 1 Assignment)
 
 A basic full-stack **Intern Dashboard Portal** designed for fundraising interns.  
-This portal allows interns to login (dummy), track their performance, view leaderboards, reward points, referrals, and progress — all in one clean dashboard UI.
+This portal lets interns log in (dummy), track their performance, view leaderboards, rewards, referrals, and personal progress — all in one clean dashboard interface.
 
 ---
-
 ## 🔥 Features Implemented
 
-- Dummy **login/signup** page (no authentication)
+- Dummy **login/signup** screen (no authentication)
 - Intern **Dashboard** with:
-  - Personal Information (name, email, referral code, donation)
-  - Rewards section (points, rank, tasks, referrals)
-  - **Leaderboard** of top-performing interns
-  - Logout button
+  - Personal information (name, email, referral code, amount raised)
+  - Reward section (points, tasks completed, referrals)
+  - **Leaderboard** showing top-performing interns
+  - Logout option
 
 ---
+## 📸 Screenshots
 
-## 📸 Screenshot
-
-> Dashboard UI (Intern View)
-
-![login page Screenshot](./frontend/assets/login.png)
+> Login & Dashboard Preview
+![Login Page Screenshot](./frontend/assets/login.png)  
 ![Dashboard Screenshot](./frontend/assets/dashboard.png)
-
 ---
 
 ## 🚀 Getting Started
 
 Follow these steps to run the project locally:
 
-### 1. Clone this Repository
-
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+# 1. Clone the repository
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
 
+# 2. Install dependencies
+npm install
+
+# 3. Start the project
+npm start
+
+App will start at → http://localhost:3000
+```
