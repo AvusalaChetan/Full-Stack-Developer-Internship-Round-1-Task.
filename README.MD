@@ -27,8 +27,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+https://github.com/AvusalaChetan/Full-Stack-Developer-Internship-Round-1-Task..git
 
 # 2. Install dependencies
 npm install
