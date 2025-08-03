@@ -20,8 +20,8 @@ This portal allows interns to login (dummy), track their performance, view leade
 
 > Dashboard UI (Intern View)
 
-![login page Screenshot](../webDevIntership/frontend/assets/login.png)
-![Dashboard Screenshot](../webDevIntership/frontend/assets/dashboard.png)
+![login page Screenshot](./frontend/assets/login.png)
+![Dashboard Screenshot](./frontend/assets/dashboard.png)
 
 ---
 
